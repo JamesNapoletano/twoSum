@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: auto;
+    height: 100vh;
+    background-color: #640000;
+    color: #460000;
+}
+
+.row {
+    display: flex;
+    flex-direction: row wrap;
+}
+
+.column {
+    display: flex;
+    flex-flow: column;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.inputColor {
+    background-color: #a50000;
+    color: #460000;
+    border: 5px solid #460000;
+    font-weight: bold;
+    min-height: 1em;
+    width: inherit;
+}
+
+.altInputColor {
+    background-color: #640000;
+    color: #a50000;
+    border: 5px solid #460000;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: #460000;
+}
+
+#contentWindow {
+    background-color: #a50000;
+    padding: 10px;
+    border: 10px solid #460000;
+}
+
+#title {
+    margin: 0;
+    font-size: 30pt;
+}
+
+#nums {
+    margin-bottom: 10px;
+}
+
+#submitButton {
+    margin-left: 10px;
+}
+
+#outputAnswer {
+    margin-bottom: 0;
+    margin-top: 10px;
+    word-wrap:normal;
+}
